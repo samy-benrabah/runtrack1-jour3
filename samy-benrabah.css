@@ -1,0 +1,51 @@
+html, body 
+{
+	width: 100%;
+	height:100%;
+	background:radial-gradient(#020024,#096b79,#00d4ff);
+}
+
+
+.nom
+{
+	height: 80px;
+	width:350px;
+	border-radius: 5% / 50%;
+	padding: 0% 10%;
+	background: linear-gradient(#6699FF,#FFFFCC);
+	font-family: 'Balsamiq Sans', cursive;
+}
+ 
+.photo
+{
+	margin: auto;
+	border-radius:50%;
+	width: 200px;
+	height: 200px;
+	background-position: right;
+	float: right;
+
+}
+
+.texte
+{
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 16%;
+  	width: 40%;
+  	height: 40px;
+  	overflow: scroll;
+  	background: radial-gradient(#6699FF,#FFFFCC);
+  	line-height: 2em;
+  	margin-top: 30px;
+  	border-radius: 10%;
+ }
+ /*.grey:hover img*/
+ {
+ 	filter: grayscale(100%);
+	
+ }
+ .grey
+ {
+ 	transition: .3s ease-in-out;
+ }
+ 
